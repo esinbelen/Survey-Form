@@ -1,0 +1,49 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+h1, p{
+    text-align: center;
+    color: #E8E1D8;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-style: italic;
+}
+
+#form-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+form{
+    padding: 15px 30px 12px 30px;
+    background:  hsla(28, 23%, 84%, 0.87);
+    border-radius: 6px;
+    grid-column: 2;
+    width: 600px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: center;
+    position: relative;
+}
+
+input[type=text], input[type=email], input[type=number], select{
+    border-radius: 5px;
+    height: 30px;
+    border-style: hidden;
+}
+
+input[type=checkbox], input[type=radio] {
+    transform: scale(1.5);
+    margin: 7px;
+}
